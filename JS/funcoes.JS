@@ -3,9 +3,9 @@ class MobileVavBar {
         this.menuMobile = document.querySelector(menuMobile);
         this.navBarRight = document.querySelector(navBarRight);
         this.navBarLinks = document.querySelectorAll(navBarLinks);
-        this.navBar = document.querySelector('.navBar'); // seleciona a barra de navegação
+        this.navBar = document.querySelector('.navBar');
         this.activeClass = "active";
-        this.darkClass = "dark"; // classe para o background preto
+        this.darkClass = "dark";
 
         this.handleClick = this.handleClick.bind(this);
     }
@@ -21,7 +21,7 @@ class MobileVavBar {
     handleClick() {
         this.navBarRight.classList.toggle(this.activeClass);
         this.menuMobile.classList.toggle(this.activeClass);
-        this.navBar.classList.toggle(this.darkClass); // toggle da classe para o background preto
+        this.navBar.classList.toggle(this.darkClass);
         this.animateLinks();
     }
 
