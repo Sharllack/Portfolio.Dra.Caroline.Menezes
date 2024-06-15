@@ -2,6 +2,10 @@
 
 @media screen and (max-width: 375px) {
 
+    .capa {
+        background-position: right center;
+    }
+
     .navBar a {
         font-size: .8em;
     }
