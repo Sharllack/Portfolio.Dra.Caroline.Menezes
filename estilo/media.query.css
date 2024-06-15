@@ -2,6 +2,71 @@
 
 @media screen and (max-width: 375px) {
 
+    .logoTipoCapa {
+        margin: auto;
+        text-align: center;
+        transform: translate(0, 25%);
+    
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 130px;width: 130px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .logoTipoCapa img {
+        height: 80%;
+        width: 90%;
+    }
+    
+    .logoTipoCapa h1 {
+        font-size: .5em;
+        letter-spacing: 1px;
+    }
+    
+    .logoTipoCapa p {
+        font-size: .2em;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .logoTipoCapa h1, .logoTipoCapa p {
+        color: goldenrod;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+    }
+
+    .logoTipoContatos {
+        margin: auto;
+        text-align: center;
+    
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 130px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .logoTipoContatos img {
+        height: 80%;
+        width: 90%;
+    }
+    
+    .logoTipoContatos h1 {
+        font-size: .5em;
+        letter-spacing: 1px;
+    }
+    
+    .logoTipoContatos p {
+        font-size: .2em;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .logoTipoContatos h1, .logoTipoContatos p {
+        color: goldenrod;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+    }
+
     .capa {
         background-position: right center;
     }
@@ -104,19 +169,106 @@
     }
 
     .borderContatos {
+        display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    
+        border: 2px solid goldenrod;
+        border-radius: 15px;
+    }
+    
+    .borderRedes {
+        padding: 15px;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .redes {
         width: 200px;
     }
 
+    .redes a img {
+        height: 20px;
+        width: 20px;
+    }
+
     .redes a {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 
 @media screen and (min-width: 375px) and (max-width: 538px) {
+
+    .logoTipoCapa {
+        margin: auto;
+        text-align: center;
+        transform: translate(0, 25%);
+    
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 130px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .logoTipoCapa img {
+        height: 80%;
+        width: 90%;
+    }
+    
+    .logoTipoCapa h1 {
+        font-size: .5em;
+        letter-spacing: 1px;
+    }
+    
+    .logoTipoCapa p {
+        font-size: .2em;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .logoTipoCapa h1, .logoTipoCapa p {
+        color: goldenrod;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+    }
+
+    .logoTipoContatos {
+        margin: auto;
+        text-align: center;
+    
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 130px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .logoTipoContatos img {
+        height: 80%;
+        width: 90%;
+    }
+    
+    .logoTipoContatos h1 {
+        font-size: .5em;
+        letter-spacing: 1px;
+    }
+    
+    .logoTipoContatos p {
+        font-size: .2em;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .logoTipoContatos h1, .logoTipoContatos p {
+        color: goldenrod;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+    }
+
     .contCapa {
         width: 100%;
     }
@@ -212,19 +364,106 @@
     }
 
     .borderContatos {
+        display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    
+        border: 2px solid goldenrod;
+        border-radius: 15px;
+    }
+    
+    .borderRedes {
+        padding: 15px;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .redes {
         width: 200px;
     }
 
+    .redes a img {
+        height: 20px;
+        width: 20px;
+    }
+
     .redes a {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 
 @media screen and (min-width: 538px) and (max-width: 628px) {
+
+    .logoTipoCapa {
+        margin: auto;
+        text-align: center;
+        transform: translate(0, 25%);
+    
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 130px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .logoTipoCapa img {
+        height: 80%;
+        width: 90%;
+    }
+    
+    .logoTipoCapa h1 {
+        font-size: .5em;
+        letter-spacing: 1px;
+    }
+    
+    .logoTipoCapa p {
+        font-size: .2em;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .logoTipoCapa h1, .logoTipoCapa p {
+        color: goldenrod;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+    }
+
+    .logoTipoContatos {
+        margin: auto;
+        text-align: center;
+    
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 130px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .logoTipoContatos img {
+        height: 80%;
+        width: 90%;
+    }
+    
+    .logoTipoContatos h1 {
+        font-size: .5em;
+        letter-spacing: 1px;
+    }
+    
+    .logoTipoContatos p {
+        font-size: .2em;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .logoTipoContatos h1, .logoTipoContatos p {
+        color: goldenrod;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+    }
+
     .contCapa {
         width: 100%;
     }
@@ -320,19 +559,106 @@
     }
 
     .borderContatos {
+        display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    
+        border: 2px solid goldenrod;
+        border-radius: 15px;
+    }
+    
+    .borderRedes {
+        padding: 15px;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .redes {
         width: 200px;
     }
 
+    .redes a img {
+        height: 20px;
+        width: 20px;
+    }
+
     .redes a {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 
 @media screen and (min-width: 628px) and (max-width: 1349px) {
+
+    .logoTipoCapa {
+        margin: auto;
+        text-align: center;
+        transform: translate(0, 25%);
+    
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 130px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .logoTipoCapa img {
+        height: 80%;
+        width: 90%;
+    }
+    
+    .logoTipoCapa h1 {
+        font-size: .5em;
+        letter-spacing: 1px;
+    }
+    
+    .logoTipoCapa p {
+        font-size: .2em;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .logoTipoCapa h1, .logoTipoCapa p {
+        color: goldenrod;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+    }
+
+    .logoTipoContatos {
+        margin: auto;
+        text-align: center;
+    
+        background-color: rgba(0, 0, 0, 0.856);
+        width: 130px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .logoTipoContatos img {
+        height: 80%;
+        width: 90%;
+    }
+    
+    .logoTipoContatos h1 {
+        font-size: .5em;
+        letter-spacing: 1px;
+    }
+    
+    .logoTipoContatos p {
+        font-size: .2em;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .logoTipoContatos h1, .logoTipoContatos p {
+        color: goldenrod;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+    }
+
     .contCapa {
         width: 100%;
     }
@@ -432,15 +758,36 @@
     }
 
     .borderContatos {
+        display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    
+        border: 2px solid goldenrod;
+        border-radius: 15px;
+    }
+    
+    .borderRedes {
+        padding: 15px;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .redes {
         width: 200px;
     }
 
+    .redes a img {
+        height: 20px;
+        width: 20px;
+    }
+
     .redes a {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 
