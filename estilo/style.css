@@ -22,11 +22,12 @@ html {
 .navBar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 25px;
     position: sticky;
     z-index: 10;
     top: -1px;
-    background-color: black;
+    transition: .4s;
 }
 
 .navBar a {
@@ -357,6 +358,12 @@ html {
         translate: 0 0;
     }
 }
+
+.navBar.dark {
+    background-color: black;
+    transition: .4s;
+}
+
 
 .menu-mobile.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);

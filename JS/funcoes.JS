@@ -3,7 +3,9 @@ class MobileVavBar {
         this.menuMobile = document.querySelector(menuMobile);
         this.navBarRight = document.querySelector(navBarRight);
         this.navBarLinks = document.querySelectorAll(navBarLinks);
+        this.navBar = document.querySelector('.navBar'); // seleciona a barra de navegação
         this.activeClass = "active";
+        this.darkClass = "dark"; // classe para o background preto
 
         this.handleClick = this.handleClick.bind(this);
     }
@@ -11,14 +13,15 @@ class MobileVavBar {
     animateLinks() {
         this.navBarLinks.forEach((link, index) => {
             link.style.animation
-                ?(link.style.animation = "")
-                :(link.style.animation = `navLinkFade .5s ease forwards ${index / 7 + .3}s`)
+                ? (link.style.animation = "")
+                : (link.style.animation = `navLinkFade .5s ease forwards ${index / 7 + .3}s`);
         });
     }
 
     handleClick() {
         this.navBarRight.classList.toggle(this.activeClass);
         this.menuMobile.classList.toggle(this.activeClass);
+        this.navBar.classList.toggle(this.darkClass); // toggle da classe para o background preto
         this.animateLinks();
     }
 
@@ -27,7 +30,7 @@ class MobileVavBar {
     }
 
     init() {
-        if(this.menuMobile) {
+        if (this.menuMobile) {
             this.addClickEvent();
         }
         return this;
@@ -37,7 +40,7 @@ class MobileVavBar {
 const mobileVavBar = new MobileVavBar(
     ".menu-mobile",
     ".navBarRight",
-    ".navBarRight li",
+    ".navBarRight li"
 );
 
 mobileVavBar.init();
