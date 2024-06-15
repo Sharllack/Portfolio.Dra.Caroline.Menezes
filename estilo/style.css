@@ -46,7 +46,7 @@ html {
 }
 
 .capa {
-    background-image: url('./imagens/Imagem\ principal.jpg');
+    background-image: url(imagens/Imagem\ principal.jpg);
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
