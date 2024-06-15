@@ -101,7 +101,7 @@ html {
 }
 
 .contHistoria {
-    background-image: url('/imagens/wppmarmore.jpeg');
+    background-image: url('../imagens/wppmarmore.jpeg');
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
@@ -164,7 +164,7 @@ html {
 }
 
 .missaoVisaoValores {
-    background-image: url('/imagens/imagem\ secundaria.jpg');
+    background-image: url('../imagens/imagem\ secundaria.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -220,7 +220,7 @@ html {
 }
 
 .titleArea {
-    background-image: url('/imagens/wppmarmore.jpeg');
+    background-image: url('../imagens/wppmarmore.jpeg');
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
@@ -281,7 +281,7 @@ html {
 }
 
 .contatos {
-    background-image: url('/imagens/contatos.jpg');
+    background-image: url('../imagens/contatos.jpg');
     background-size: cover;
     background-position: bottom center;
     background-attachment: fixed;
