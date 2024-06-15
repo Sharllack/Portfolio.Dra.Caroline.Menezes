@@ -335,7 +335,7 @@
 
     .contCapa p {
         margin: auto;
-        width: 70%;
+        width: 80%;
         font-size: 1em;
     }
 
@@ -353,7 +353,7 @@
 
     .borderHistoria p {
         margin: auto;   
-        width: 70%;
+        width: 80%;
         font-size: 1em;
     }
 
@@ -433,5 +433,30 @@
 
     .redes a {
         font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .navBarRight {
+        position: absolute;
+        top: 14vh;
+        right: 0;
+        width: 50vw;
+        height: 86vh;
+        background-color: black;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translate(100%, 0);
+        transition-duration: .4s ;
+    }
+
+    .navBarRight li {
+        opacity: 0;
+    }
+
+    .menu-mobile {
+        display: block;
     }
 }

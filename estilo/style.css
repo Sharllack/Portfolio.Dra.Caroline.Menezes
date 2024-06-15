@@ -12,6 +12,7 @@ ul {
 
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 html {
@@ -25,6 +26,7 @@ html {
     position: sticky;
     z-index: 10;
     top: -1px;
+    background-color: black;
 }
 
 .navBar a {
@@ -324,4 +326,46 @@ html {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+}
+
+.menu-mobile {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-mobile div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+
+    transition: .3s;
+}
+
+.navBarRight.active {
+    transform: translate(0, 0);
+}
+
+@keyframes navLinkFade {
+    0% {
+        opacity: 0;
+        translate: 50px 0;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+.menu-mobile.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.menu-mobile.active .line2 {
+    opacity: 0;
+}
+
+.menu-mobile.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
 }
