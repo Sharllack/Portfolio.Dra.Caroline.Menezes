@@ -18,26 +18,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.hamburguer {
-    display: none;
-    border: none;
-    background: none;
-    border-top: 3px solid #fff;
-    cursor: pointer;
-}
-
-.hamburguer::before,
-.hamburguer::after {
-    content: " ";
-    display: block;
-    width: 30px;
-    height: 3px;
-    background: #fff;
-    margin-top: 5px;
-    position: relative;
-    transition: .3s;
-}
-
 .navBar {
     display: flex;
     justify-content: space-between;
@@ -215,6 +195,12 @@ html {
     margin-left: 25px;
 }
 
+.topicos img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
 .topicos h1 {
     color: goldenrod;
     font-size: 2em;
@@ -335,5 +321,7 @@ html {
 }
 
 .redes a img {
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }

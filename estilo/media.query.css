@@ -1,5 +1,437 @@
 @charset "UTF-8"; 
 
 @media screen and (max-width: 375px) {
+
+    .contCapa {
+        width: 100%;
+    }
+
+    .contCapa h1 {
+        font-size: 1.3em;
+    }
+
+    .contCapa p {
+        font-size: .8em;
+    }
+
+    .historiaEFormacao {
+        flex-direction: column;
+    }
+
+    .contHistoria {
+        width: 100%;
+    }
+
+    .borderHistoria h1 {
+        font-size: 1.3em;
+    }
+
+    .borderHistoria p {
+        font-size: .8em;
+    }
+
+    .perfil {
+        width: 100%;
+    }
+
+    .perfil img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .perfil p {
+        font-size: .8em;
+    }
+
+    .borderMissao {
+        flex-direction: column;
+    }
+
+    .topicos {
+        height: 100%;
+    }
+
+    .topicos:not(:nth-child(1)) {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .topicos img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .topicos h1 {
+        font-size: 1em;
+    }
+
+    .topicos p {
+        width: 100%;
+        font-size: .65em;
+    }
+
+    .areaDeAtuacao {
+        flex-direction: column;
+    }
+
+    .titleArea {
+        width: 100%;
+    }
+
+    .titleArea h1 {
+        font-size: 3em;
+    }
+
+    .topicoArea {
+        width: 100%;
+    }
+
+    .borderAreas li {
+        font-size: 1em;
+    }
     
+    .borderAreas li::marker {
+        color: goldenrod;
+        font-size: 2em;
+    }
+
+    .borderContatos {
+        flex-direction: column;
+    }
+
+    .redes {
+        width: 200px;
+    }
+
+    .redes a {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 538px) {
+    .contCapa {
+        width: 100%;
+    }
+
+    .contCapa h1 {
+        font-size: 1.6em;
+    }
+
+    .contCapa p {
+        font-size: 1em;
+    }
+
+    .historiaEFormacao {
+        flex-direction: column;
+    }
+
+    .contHistoria {
+        width: 100%;
+    }
+
+    .borderHistoria h1 {
+        font-size: 1.5em;
+    }
+
+    .borderHistoria p {
+        font-size: 1em;
+    }
+
+    .perfil {
+        width: 100%;
+    }
+
+    .perfil img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .perfil p {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .borderMissao {
+        flex-direction: column;
+    }
+
+    .topicos {
+        height: 100%;
+    }
+
+    .topicos:not(:nth-child(1)) {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .topicos img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .topicos h1 {
+        font-size: 1.1em;
+    }
+
+    .topicos p {
+        width: 100%;
+        font-size: .8em;
+    }
+
+    .areaDeAtuacao {
+        flex-direction: column;
+    }
+
+    .titleArea {
+        width: 100%;
+    }
+
+    .titleArea h1 {
+        font-size: 3em;
+    }
+
+    .topicoArea {
+        width: 100%;
+    }
+
+    .borderAreas li {
+        font-size: 1em;
+    }
+    
+    .borderAreas li::marker {
+        color: goldenrod;
+        font-size: 2em;
+    }
+
+    .borderContatos {
+        flex-direction: column;
+    }
+
+    .redes {
+        width: 200px;
+    }
+
+    .redes a {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 538px) and (max-width: 628px) {
+    .contCapa {
+        width: 100%;
+    }
+
+    .contCapa h1 {
+        font-size: 2.5em;
+    }
+
+    .contCapa p {
+        font-size: 1em;
+    }
+
+    .historiaEFormacao {
+        flex-direction: column;
+    }
+
+    .contHistoria {
+        width: 100%;
+    }
+
+    .borderHistoria h1 {
+        font-size: 2.3em;
+    }
+
+    .borderHistoria p {
+        font-size: 1em;
+    }
+
+    .perfil {
+        width: 100%;
+    }
+
+    .perfil img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .perfil p {
+        font-size: 1em;
+        width: 70%;
+    }
+
+    .borderMissao {
+        flex-direction: column;
+    }
+
+    .topicos {
+        height: 100%;
+    }
+
+    .topicos:not(:nth-child(1)) {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .topicos img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .topicos h1 {
+        font-size: 1.1em;
+    }
+
+    .topicos p {
+        width: 70%;
+        font-size: .8em;
+    }
+
+    .areaDeAtuacao {
+        flex-direction: column;
+    }
+
+    .titleArea {
+        width: 100%;
+    }
+
+    .titleArea h1 {
+        font-size: 3em;
+    }
+
+    .topicoArea {
+        width: 100%;
+    }
+
+    .borderAreas li {
+        font-size: 1em;
+    }
+    
+    .borderAreas li::marker {
+        color: goldenrod;
+        font-size: 2em;
+    }
+
+    .borderContatos {
+        flex-direction: column;
+    }
+
+    .redes {
+        width: 200px;
+    }
+
+    .redes a {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 628px) and (max-width: 1349px) {
+    .contCapa {
+        width: 100%;
+    }
+
+    .contCapa h1 {
+        font-size: 3em;
+    }
+
+    .contCapa p {
+        margin: auto;
+        width: 70%;
+        font-size: 1em;
+    }
+
+    .historiaEFormacao {
+        flex-direction: column;
+    }
+
+    .contHistoria {
+        width: 100%;
+    }
+
+    .borderHistoria h1 {
+        font-size: 2.7em;
+    }
+
+    .borderHistoria p {
+        margin: auto;   
+        width: 70%;
+        font-size: 1em;
+    }
+
+    .perfil {
+        width: 100%;
+    }
+
+    .perfil img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .perfil p {
+        font-size: 1em;
+        width: 50%;
+    }
+
+    .borderMissao {
+        flex-direction: column;
+    }
+
+    .topicos {
+        height: 100%;
+    }
+
+    .topicos:not(:nth-child(1)) {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .topicos img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .topicos h1 {
+        font-size: 1.1em;
+    }
+
+    .topicos p {
+        width: 50%;
+        font-size: .8em;
+    }
+
+    .areaDeAtuacao {
+        flex-direction: column;
+    }
+
+    .titleArea {
+        width: 100%;
+    }
+
+    .titleArea h1 {
+        font-size: 3em;
+    }
+
+    .topicoArea {
+        width: 100%;
+    }
+
+    .borderAreas li {
+        font-size: 1em;
+    }
+    
+    .borderAreas li::marker {
+        color: goldenrod;
+        font-size: 2em;
+    }
+
+    .borderContatos {
+        flex-direction: column;
+    }
+
+    .redes {
+        width: 200px;
+    }
+
+    .redes a {
+        font-size: 2em;
+    }
 }
