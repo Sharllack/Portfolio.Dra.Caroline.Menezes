@@ -2,6 +2,10 @@
 
 @media screen and (max-width: 375px) {
 
+    .navBar a {
+        font-size: .8em;
+    }
+
     .contCapa {
         width: 100%;
     }
@@ -439,10 +443,10 @@
 @media screen and (max-width: 730px) {
     .navBarRight {
         position: absolute;
-        top: 14vh;
+        top: 12vh;
         right: 0;
         width: 50vw;
-        height: 86vh;
+        height: 88vh;
         background-color: black;
 
         flex-direction: column;
