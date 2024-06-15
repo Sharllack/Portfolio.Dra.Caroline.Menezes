@@ -1,0 +1,339 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none
+}
+
+body {
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hamburguer {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: .3s;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    position: sticky;
+    z-index: 10;
+    top: -1px;
+}
+
+.navBar a {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+}
+
+.navBarRight {
+    display: flex;
+}
+
+.capa {
+    background-image: url('/imagens/Imagem\ principal.jpg');
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.borderCapa {
+    border: 2px solid goldenrod;
+    padding: 15px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.contCapa {
+    background-color: rgba(0, 0, 0, 0.582);
+    transform: translate(0, 50%);
+
+    border-radius: 0 25px 25px 0;
+    height: 50%;
+    width: 50%;
+    padding: 15px;
+
+    animation: appearCont 1.5s ease-out;
+}
+
+@keyframes appearCont {
+    0% {
+        translate: -100vw 0;
+    }
+    
+    100% {
+        translate: 0 0;
+    }
+}
+
+.contCapa h1 {
+    font-size: 3em;
+    color: goldenrod;
+    text-align: center;
+}
+
+.contCapa p {
+    font-size: 1.3em;
+    color: white;
+    text-indent: 15px;
+    text-align: justify;
+}
+
+.historiaEFormacao {
+    height: 100vh;
+    display: flex;
+}
+
+.contHistoria {
+    background-image: url('/imagens/wppmarmore.jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 50%;
+    padding: 15px;
+}
+
+.borderHistoria {
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    height: 100%;
+    padding: 15px;
+}
+
+.borderHistoria h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.borderHistoria p {
+    font-size: 1.3em;
+    text-indent: 15px;
+    text-align: justify;
+}
+
+.perfil {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    padding: 15px;
+}
+
+.perfil img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.perfil p {
+    color: white;
+    text-align: justify;
+    font-size: 1.3em;
+    width: 80%;
+}
+
+.borderPerfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    border: 2px solid goldenrod;
+    height: 100%;
+}
+
+.missaoVisaoValores {
+    background-image: url('/imagens/imagem\ secundaria.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 15px;
+}
+
+.borderMissao {
+    border-radius: 15px;
+    border: 2px solid goldenrod;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.topicos {
+    color: white;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.topicos:not(:nth-child(1)) {
+    margin-left: 25px;
+}
+
+.topicos h1 {
+    color: goldenrod;
+    font-size: 2em;
+}
+
+.topicos p {
+    width: 70%;
+    font-size: 1.3em;
+}
+
+.areaDeAtuacao {
+    display: flex;
+    height: 100vh;
+}
+
+.titleArea {
+    background-image: url('/imagens/wppmarmore.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+
+    padding: 15px;
+}
+
+.borderArea {
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleArea h1 {
+    font-size: 5em;
+    text-align: center;
+    width: 270px;
+}
+
+.topicoArea {
+    background-color: black;
+    height: 100%;
+    width: 50%;
+
+    padding: 15px;
+}
+
+.borderAreas {
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    padding: 15px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderAreas ul {
+    list-style-type: decimal;
+    color: white;
+}
+
+.borderAreas li {
+    font-size: 2em;
+}
+
+.borderAreas li::marker {
+    color: goldenrod;
+    font-size: 2em;
+}
+
+.contatos {
+    background-image: url('/imagens/contatos.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 15px;
+}
+
+.borderContatos {
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    padding: 15px;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.redes a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+.redes a img {
+    border-radius: 50%;
+}
