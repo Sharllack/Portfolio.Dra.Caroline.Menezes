@@ -155,16 +155,11 @@ html {
 }
 
 .contCapa h1 {
-    font-size: 3em;
+    margin: auto;
+    text-align: center;
+    font-size: 6.5em;
     color: goldenrod;
     text-align: center;
-}
-
-.contCapa p {
-    font-size: 1.3em;
-    color: white;
-    text-indent: 15px;
-    text-align: justify;
 }
 
 .historiaEFormacao {
@@ -221,6 +216,7 @@ html {
     color: white;
     text-align: justify;
     font-size: 1.3em;
+    text-indent: 15px;
     width: 80%;
 }
 

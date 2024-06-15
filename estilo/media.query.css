@@ -96,11 +96,11 @@
     }
 
     .borderHistoria h1 {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     .borderHistoria p {
-        font-size: .8em;
+        font-size: .6em;
     }
 
     .perfil {
@@ -108,12 +108,14 @@
     }
 
     .perfil img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .perfil p {
-        font-size: .8em;
+        font-size: .6em;
+        width: 95%;
+        
     }
 
     .borderMissao {
@@ -141,6 +143,15 @@
     .topicos p {
         width: 100%;
         font-size: .65em;
+    }
+
+    .topicos prev {
+        width: 100%;
+        font-size: .65em;
+    }
+
+    .valText {
+        margin-bottom: 5px;
     }
 
     .areaDeAtuacao {
