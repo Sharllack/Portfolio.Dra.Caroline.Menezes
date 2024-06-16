@@ -40,6 +40,12 @@ html {
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+    border: 2px solid transparent;
+}
+
+.navBar a:hover {
+    border-bottom: 2px solid goldenrod;
+    transition: .3s;
 }
 
 .navBarRight {
@@ -406,6 +412,11 @@ html {
     justify-content: center;
     align-items: center;
     text-align: justify;
+    cursor: pointer;
+}
+
+.redes:hover {
+    background-color: rgba(245, 244, 244, 0.089);
 }
 
 .redes a {
