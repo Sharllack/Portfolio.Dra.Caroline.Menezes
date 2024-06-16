@@ -15,6 +15,14 @@ body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: goldenrod;
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -45,6 +53,7 @@ html {
 
 .navBar a:hover {
     border-bottom: 2px solid goldenrod;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.171);
     transition: .3s;
 }
 
@@ -496,4 +505,8 @@ html {
 
 .menu-mobile.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.borderHistoria, .borderPerfil, .topicos, .borderArea, .borderAreas, .redes {
+    visibility: hidden;
 }
