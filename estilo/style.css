@@ -129,6 +129,9 @@ html {
     padding: 15px;
     border-radius: 15px;
     height: 100%;
+
+    display: flex;
+    align-items: center;
 }
 
 .contCapa {
@@ -195,52 +198,52 @@ html {
 }
 
 .perfil {
-    height: 100%;
     width: 50%;
     padding: 15px;
 }
 
-.perfil img {
+.borderPerfil {
     height: 100%;
-    width: 40%;
+    width: 100%;
     border: 2px solid goldenrod;
-    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.267);
-}
+    border-radius: 15px;
+    padding: 15px;
 
-.perfil h1 {
-    color: white;
-    font-size: 2.5em;
-}
-
-.perfil p {
-    color: white;
-}
-
-#text1 {
-    margin-bottom: 35px;
-}
-
-#text2 {
-    text-align: justify;
+    display: flex;
+    align-items: center;
 }
 
 .contPerfil {
     display: flex;
 }
 
-.textPerfil {
-    height: 100%;
-    width: 50%;
-    margin-left: 25px;
+.contPerfil img {
+    width: 40%;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(211, 211, 211, 0.418);
+    margin-right: 15px;
 }
 
-.borderPerfil {
-    display: flex;
-    align-items: center;
-    border-radius: 15px;
-    border: 2px solid goldenrod;
-    height: 100%;
-    padding: 15px;
+.contPerfil .textPerfil {
+    color: white;
+}
+
+.textPerfil h1 {
+    font-size: 2.5em;
+}
+
+#text1 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#text2 {
+    text-indent: 15px;
+    font-size: 1.1em;
+    text-align: justify;
 }
 
 .missaoVisaoValores {

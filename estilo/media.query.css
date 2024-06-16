@@ -1,4 +1,4 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 
 @media screen and (max-width: 375px) {
 
@@ -107,54 +107,31 @@
     }
 
     .perfil {
-        height: 100%;
         width: 100%;
-        padding: 15px;
-    }
-    
-    .perfil img {
-        height: 100%;
-        width: 40%;
-        border: 2px solid goldenrod;
-        box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.267);
-    }
-    
-    .perfil h1 {
-        color: white;
-        font-size: 1.1em;
-    }
-    
-    .perfil p {
-        color: white;
-        font-size: .6em;
-    }
-    
-    #text1 {
-        margin-bottom: 5px;
-    }
-    
-    #text2 {
-        text-align: justify;
     }
     
     .contPerfil {
         display: flex;
-        align-items: center;
     }
     
-    .textPerfil {
-        height: 100%;
-        width: 65%;
-        margin-left: 5px;
+    .contPerfil img {
+        width: 40%;
     }
     
-    .borderPerfil {
-        display: flex;
-        align-items: center;
-        border-radius: 15px;
-        border: 2px solid goldenrod;
-        height: 100%;
-        padding: 10px;
+    .textPerfil h1 {
+        font-size: 1em;
+    }
+    
+    #text1 {
+        font-size: .7em;
+        letter-spacing: 2px;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    
+    #text2 {
+        text-indent: 15px;
+        font-size: .54em;
     }
 
     .borderMissao {
@@ -351,54 +328,31 @@
     }
 
     .perfil {
-        height: 100%;
         width: 100%;
-        padding: 15px;
-    }
-    
-    .perfil img {
-        height: 100%;
-        width: 40%;
-        border: 2px solid goldenrod;
-        box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.267);
-    }
-    
-    .perfil h1 {
-        color: white;
-        font-size: 1.1em;
-    }
-    
-    .perfil p {
-        color: white;
-        font-size: .6em;
-    }
-    
-    #text1 {
-        margin-bottom: 5px;
-    }
-    
-    #text2 {
-        text-align: justify;
     }
     
     .contPerfil {
         display: flex;
-        align-items: center;
     }
     
-    .textPerfil {
-        height: 100%;
-        width: 65%;
-        margin-left: 5px;
+    .contPerfil img {
+        width: 40%;
     }
     
-    .borderPerfil {
-        display: flex;
-        align-items: center;
-        border-radius: 15px;
-        border: 2px solid goldenrod;
-        height: 100%;
-        padding: 10px;
+    .textPerfil h1 {
+        font-size: 1.2em;
+    }
+    
+    #text1 {
+        font-size: .7em;
+        letter-spacing: 2px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    
+    #text2 {
+        text-indent: 15px;
+        font-size: .6em;
     }
 
     .borderMissao {
@@ -584,54 +538,32 @@
     }
 
     .perfil {
-        height: 100%;
         width: 100%;
-        padding: 15px;
-    }
-    
-    .perfil img {
-        height: 100%;
-        width: 40%;
-        border: 2px solid goldenrod;
-        box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.267);
-    }
-    
-    .perfil h1 {
-        color: white;
-        font-size: 1.1em;
-    }
-    
-    .perfil p {
-        color: white;
-        font-size: .6em;
-    }
-    
-    #text1 {
-        margin-bottom: 5px;
-    }
-    
-    #text2 {
-        text-align: justify;
     }
     
     .contPerfil {
         display: flex;
-        align-items: center;
     }
     
-    .textPerfil {
-        height: 100%;
-        width: 65%;
-        margin-left: 5px;
+    .contPerfil img {
+        width: 40%;
+        height: 200px;
     }
     
-    .borderPerfil {
-        display: flex;
-        align-items: center;
-        border-radius: 15px;
-        border: 2px solid goldenrod;
-        height: 100%;
-        padding: 10px;
+    .textPerfil h1 {
+        font-size: 2em;
+    }
+    
+    #text1 {
+        font-size: .7em;
+        letter-spacing: 2px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    
+    #text2 {
+        text-indent: 15px;
+        font-size: .8em;
     }
 
     .borderMissao {
@@ -821,54 +753,32 @@
     }
 
     .perfil {
-        height: 100%;
         width: 100%;
-        padding: 15px;
-    }
-    
-    .perfil img {
-        height: 100%;
-        width: 40%;
-        border: 2px solid goldenrod;
-        box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.267);
-    }
-    
-    .perfil h1 {
-        color: white;
-        font-size: 1.1em;
-    }
-    
-    .perfil p {
-        color: white;
-        font-size: .6em;
-    }
-    
-    #text1 {
-        margin-bottom: 5px;
-    }
-    
-    #text2 {
-        text-align: justify;
     }
     
     .contPerfil {
         display: flex;
-        align-items: center;
     }
     
-    .textPerfil {
-        height: 100%;
-        width: 65%;
-        margin-left: 5px;
+    .contPerfil img {
+        width: 40%;
+        height: 200px;
     }
     
-    .borderPerfil {
-        display: flex;
-        align-items: center;
-        border-radius: 15px;
-        border: 2px solid goldenrod;
-        height: 100%;
-        padding: 10px;
+    .textPerfil h1 {
+        font-size: 2em;
+    }
+    
+    #text1 {
+        font-size: .7em;
+        letter-spacing: 2px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    
+    #text2 {
+        text-indent: 15px;
+        font-size: .8em;
     }
 
     .borderMissao {
