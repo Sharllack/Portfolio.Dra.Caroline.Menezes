@@ -71,6 +71,19 @@ html {
     border-radius: 25px;
     border: 2px solid goldenrod;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
+
+    animation: logo 1s ease-in infinite alternate;
+}
+
+@keyframes logo {
+    0% {
+        translate: 0 0%;
+    }
+
+    100% {
+        translate: 0 5%;
+    }
+    
 }
 
 .logoTipoCapa img {
@@ -105,6 +118,8 @@ html {
     border-radius: 25px;
     border: 2px solid goldenrod;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
+
+    animation: logo 1s ease-in infinite alternate;
 }
 
 .logoTipoContatos img {
