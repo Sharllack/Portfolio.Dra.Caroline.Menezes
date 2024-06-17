@@ -46,8 +46,8 @@ html {
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+    color: goldenrod;
+    text-shadow: 2px 2px 5px rgba(204, 204, 204, 0.575);
     border: 2px solid transparent;
 }
 
@@ -462,12 +462,13 @@ html {
 .menu-mobile {
     display: none;
     cursor: pointer;
+    box-shadow: 3px 3px 8px rgba(211, 211, 211, 0.438);
 }
 
 .menu-mobile div {
     width: 32px;
     height: 2px;
-    background-color: #fff;
+    background-color: goldenrod;
     margin: 8px;
 
     transition: .3s;
