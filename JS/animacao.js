@@ -1,7 +1,7 @@
 window.sr = ScrollReveal({ reset: true })
 
 
-ScrollReveal({ distance: '1000px' })
+ScrollReveal({ distance: '500px' })
 ScrollReveal().reveal('.borderHistoria', {
     origin: 'left',
     delay: 100,
