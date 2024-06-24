@@ -1,6 +1,6 @@
 var swiper = new Swiper(".borderAvaliacoes", {
     slidesPerView: 3,
-    spaceBetween: 25,
+    spaceBetween: 40,
     loop: true,
     centerSlide: 'true',
     fade: 'true',
