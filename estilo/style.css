@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'coments';
+    src: url('../fontes/DM_Serif_Display/DMSerifDisplay-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'elegante';
+    src: url('../fontes/Elegante\ Classica.ttf') format('truetype');
+}
+
 ul {
     list-style: none
 }
@@ -394,6 +404,67 @@ html {
 .borderAreas li::marker {
     color: goldenrod;
     font-size: 2em;
+}
+
+.avaliacoes {
+    background-image: url('../imagens/conceito-de-sinal-de-contrato-homem-e-mulher-fazendo-acordo-e-tirando-dinheiro_253401-3657.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 15px;
+}
+
+.borderAvaliacoes {
+    border: 2px solid goldenrod;
+    height: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleAvaliacoes {
+    color: goldenrod;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.contAvaliacoes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    height: 100%;
+}
+
+.contAvaliacoes img {
+    width: 100px;
+    margin-left: 15px;
+}
+
+.comentAvaliacoes.swiper-slide {
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 100%;
+    width: 30%;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.comentAvaliacoes p {
+    color: white;
+    padding: 0 20px 15px 20px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+}
+
+.comentAvaliacoes h2 {
+    color: gray;
+    font-size: 1.8em;
+    margin-left: 15px;
+    font-family: 'coments';
 }
 
 .contatos {

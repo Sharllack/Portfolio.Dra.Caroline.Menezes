@@ -195,6 +195,35 @@
         font-size: 2em;
     }
 
+    .borderAvaliacoes {
+        overflow: hidden;
+    }
+    
+    .titleAvaliacoes {
+        font-size: 2em;
+    }
+    
+    .contAvaliacoes {
+        display: flex;
+        justify-content: space-between;
+        width: 300%;
+    }
+    
+    .contAvaliacoes img {
+        width: 50px;
+    }
+    
+    .comentAvaliacoes p {
+        text-align: justify;
+        text-indent: 15px;
+        font-size: 1em;
+    }
+    
+    .comentAvaliacoes h2 {
+        color: gray;
+        font-size: 1.5em;
+    }
+
     .borderContatos {
         display: flex;
         flex-direction: column;
@@ -407,6 +436,35 @@
         font-size: 2em;
     }
 
+    .borderAvaliacoes {
+        overflow: hidden;
+    }
+    
+    .titleAvaliacoes {
+        font-size: 2em;
+    }
+    
+    .contAvaliacoes {
+        display: flex;
+        justify-content: space-between;
+        width: 300%;
+    }
+    
+    .contAvaliacoes img {
+        width: 80px;
+    }
+    
+    .comentAvaliacoes p {
+        text-align: justify;
+        text-indent: 15px;
+        font-size: 1.1em;
+    }
+    
+    .comentAvaliacoes h2 {
+        color: gray;
+        font-size: 1.5em;
+    }
+
     .borderContatos {
         display: flex;
         flex-direction: column;
@@ -616,6 +674,35 @@
     .borderAreas li::marker {
         color: goldenrod;
         font-size: 2em;
+    }
+
+    .borderAvaliacoes {
+        overflow: hidden;
+    }
+    
+    .titleAvaliacoes {
+        font-size: 2em;
+    }
+    
+    .contAvaliacoes {
+        display: flex;
+        justify-content: space-between;
+        width: 300%;
+    }
+    
+    .contAvaliacoes img {
+        width: 80px;
+    }
+    
+    .comentAvaliacoes p {
+        text-align: justify;
+        text-indent: 15px;
+        font-size: 1.1em;
+    }
+    
+    .comentAvaliacoes h2 {
+        color: gray;
+        font-size: 1.5em;
     }
 
     .borderContatos {
@@ -832,6 +919,32 @@
         color: goldenrod;
         font-size: 2em;
     }
+    
+    .titleAvaliacoes {
+        font-size: 2.5em;
+    }
+    
+    .contAvaliacoes {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .contAvaliacoes img {
+        width: 70px;
+    }
+    
+    .comentAvaliacoes p {
+        text-align: justify;
+        padding: 0 10px 5px 10px;
+        text-indent: 5px;
+        font-size: 1em;
+    }
+    
+    .comentAvaliacoes h2 {
+        color: gray;
+        font-size: 1.5em;
+    }
 
     .borderContatos {
         display: flex;
@@ -867,7 +980,7 @@
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 900px) {
     .navBarRight {
         position: absolute;
         top: 12vh;

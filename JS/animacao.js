@@ -27,6 +27,11 @@ ScrollReveal().reveal('.borderAreas', {
     delay: 100,
     
 });
+ScrollReveal().reveal('.contAvaliacoes', { 
+    origin: 'left',
+    delay: 100,
+    
+});
 ScrollReveal().reveal('.redes', { 
     origin: 'right',
     delay: 100,
