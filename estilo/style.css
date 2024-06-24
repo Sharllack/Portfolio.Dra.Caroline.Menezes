@@ -409,6 +409,7 @@ html {
 .avaliacoes {
     background-image: url('../imagens/conceito-de-sinal-de-contrato-homem-e-mulher-fazendo-acordo-e-tirando-dinheiro_253401-3657.jpg');
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     padding: 15px;
 }
