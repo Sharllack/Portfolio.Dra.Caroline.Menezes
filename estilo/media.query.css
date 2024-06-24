@@ -76,13 +76,14 @@
     }
 
     .contCapa {
-        transform: translate(0, 80%);
+        transform: translate(0, 70%);
         height: 30%;
         width: 100%;
     }
 
     .contCapa h1 {
         font-size: 2.5em;
+        letter-spacing: 1px;
     }
 
     .contCapa p {
@@ -102,6 +103,7 @@
     }
 
     .borderHistoria p {
+        margin-top: 5px;
         font-size: .6em;
     }
 
@@ -130,7 +132,7 @@
     
     #text2 {
         text-indent: 15px;
-        font-size: .54em;
+        font-size: .58em;
     }
 
     .borderMissao {
@@ -214,13 +216,14 @@
     }
     
     .contAvaliacoes img {
-        width: 50px;
+        width: 70px;
     }
     
     .comentAvaliacoes p {
         text-align: justify;
         text-indent: 15px;
-        font-size: 1em;
+        font-size: .8em;
+        letter-spacing: 0.1px;
     }
     
     .comentAvaliacoes h2 {
@@ -595,11 +598,11 @@
     }
 
     .contCapa {
-        width: 100%;
+        width: 80%;
     }
 
     .contCapa h1 {
-        font-size: 5em;
+        font-size: 4em;
     }
 
     .contCapa p {
@@ -781,6 +784,16 @@
     }
 }
 
+@media screen and (min-width: 628px) and (max-width: 1050px) {
+    .contCapa {
+        width: 80%;
+    }
+
+    .contCapa h1 {
+        font-size: 5em;
+    }
+}
+
 @media screen and (min-width: 628px) and (max-width: 1349px) {
 
     .logoTipoCapa {
@@ -848,12 +861,8 @@
         text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
     }
 
-    .contCapa {
-        width: 100%;
-    }
-
     .contCapa h1 {
-        font-size: 6em;
+        font-size: 5em;
     }
 
     .contCapa p {
