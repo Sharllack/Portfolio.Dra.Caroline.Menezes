@@ -1,6 +1,3 @@
-window.sr = ScrollReveal({ reset: true })
-
-
 ScrollReveal({ distance: '500px' })
 ScrollReveal().reveal('.borderHistoria', {
     origin: 'left',
