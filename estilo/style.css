@@ -584,3 +584,15 @@ html {
 .borderHistoria, .borderPerfil, .topicos, .borderArea, .borderAreas, .redes {
     visibility: hidden;
 }
+
+.whats {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9999;
+    transition: ease-out .3s;
+}
+
+.whats:hover {
+    filter: brightness(75%);
+}
