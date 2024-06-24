@@ -596,3 +596,8 @@ html {
 .whats:hover {
     filter: brightness(75%);
 }
+
+.whats img {
+    width: 70px;
+    height: 70px;
+}

@@ -260,6 +260,16 @@
     .redes a {
         font-size: 1em;
     }
+
+    .whats {
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .whats img {
+        height: 50px;
+        width: 50px;
+    }
 }
 
 @media screen and (min-width: 375px) and (max-width: 538px) {
@@ -505,6 +515,16 @@
     .redes a {
         font-size: 1em;
     }
+
+    .whats {
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .whats img {
+        height: 60px;
+        width: 60px;
+    }
 }
 
 @media screen and (min-width: 538px) and (max-width: 628px) {
@@ -748,6 +768,16 @@
 
     .redes a {
         font-size: 1em;
+    }
+
+    .whats {
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .whats img {
+        height: 60px;
+        width: 60px;
     }
 }
 
