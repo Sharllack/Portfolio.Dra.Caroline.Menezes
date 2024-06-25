@@ -82,7 +82,7 @@ html {
 .logoTipoCapa {
     margin: auto;
     text-align: center;
-    transform: translate(0, 25%);
+    transform: translate(0, 40%);
 
     background-color: rgba(0, 0, 0, 0.856);
     width: 20%;
@@ -130,6 +130,7 @@ html {
 .logoTipoContatos {
     margin: auto;
     text-align: center;
+    transform: translate(0, 30%);
 
     background-color: rgba(0, 0, 0, 0.856);
     width: 20%;
@@ -177,7 +178,7 @@ html {
 .contCapa {
     background-color: rgba(0, 0, 0, 0.582);
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
-    transform: translate(0, 25%);
+    transform: translate(0, 35%);
 
     border-radius: 0 25px 25px 0;
     height: 50%;
@@ -434,6 +435,7 @@ html {
     color: goldenrod;
     font-size: 3.5em;
     text-align: center;
+    margin-top: 15px;
 }
 
 .contAvaliacoes {
