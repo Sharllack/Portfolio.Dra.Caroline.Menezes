@@ -613,8 +613,8 @@ html {
 }
 
 .footer {
-    box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.37);
-    background-color: #333; /* Cor de fundo */
+    background-image: url('../imagens/marmore\ footer.png');
+    background-attachment: fixed;
     color: white; /* Cor do texto */
     padding: 30px 0; /* Espaçamento interno */
     font-family: Arial, Helvetica, sans-serif;
