@@ -44,3 +44,8 @@ const mobileVavBar = new MobileVavBar(
 );
 
 mobileVavBar.init();
+
+const date = new Date();
+const ano = date.getFullYear();
+
+document.querySelector('.copy').textContent = ano;

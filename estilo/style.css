@@ -611,3 +611,136 @@ html {
     width: 70px;
     height: 70px;
 }
+
+.footer {
+    box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.37);
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 30px 0; /* Espaçamento interno */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+.footer-logo h1, .footer-logo p {
+    color: #ffc107;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    flex: 1;
+    text-align: center;
+    max-width: 200px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: goldenrod;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffc107; /* Cor ao passar o mouse */
+}
+
+.footer-contact {
+    flex: 1;
+    text-align: center;
+    max-width: 250px;
+}
+
+.footer-contact h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: goldenrod;
+}
+
+.footer-contact p {
+    margin-bottom: 8px;
+}
+
+.footer-contact a {
+    color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+    color: #ffeb3b; /* Cor ao passar o mouse */
+}
+
+.footer-social {
+    float: right;
+    flex: 1;
+    text-align: center;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.footer-social img:hover {
+    transform: scale(1.2); /* Efeito de escala ao passar o mouse */
+}
+
+.copyR {
+    text-align: center;
+    margin-top: 15px;
+    color: #ffc107;
+}
+
+.desR {
+    text-align: center;
+    font-size: .7em;
+}
+
+.desR a {
+    color: #ffc107;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.desR a:hover {
+    text-decoration: underline;
+}
