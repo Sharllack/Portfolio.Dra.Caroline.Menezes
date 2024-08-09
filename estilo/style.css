@@ -600,6 +600,8 @@ html {
     bottom: 30px;
     left: 50px;
     z-index: 9999;
+    border-radius: 50%;
+    background-color: #2AB318;
     transition: ease-out .3s;
 }
 
@@ -610,6 +612,7 @@ html {
 .whats img {
     width: 70px;
     height: 70px;
+    border-radius: 50%
 }
 
 .footer {
@@ -743,4 +746,65 @@ html {
 
 .desR a:hover {
     text-decoration: underline;
+}
+
+.borda1, .borda2, .borda3 {
+    display: flex;
+    position: fixed;
+    z-index: 9998;
+    bottom: 32px;
+    left: 50px;
+    border-radius: 50%;
+    transition: .3s;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #2AB318;
+}
+
+.borda1 {
+    animation: borda1 1.3s infinite linear;
+}
+
+.borda2 {
+    animation: borda2 1.6s infinite linear;
+}
+
+.borda3 {
+    animation: borda3 1.9s infinite linear;
+}
+
+@keyframes borda1 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes borda2 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes borda3 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
 }

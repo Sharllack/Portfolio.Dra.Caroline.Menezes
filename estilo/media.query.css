@@ -270,6 +270,13 @@
         left: 30px;
     }
 
+    .borda1, .borda2, .borda3 {
+        bottom: 32px;
+        left: 30px;
+        height: 50px;
+        width: 50px;
+    }
+
     .whats img {
         height: 50px;
         width: 50px;
@@ -574,6 +581,13 @@
     .whats {
         bottom: 30px;
         left: 30px;
+    }
+
+    .borda1, .borda2, .borda3 {
+        bottom: 32px;
+        left: 30px;
+        height: 60px;
+        width: 60px;
     }
 
     .whats img {
@@ -882,6 +896,13 @@
     }
 
     .whats img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .borda1, .borda2, .borda3 {
+        bottom: 32px;
+        left: 30px;
         height: 60px;
         width: 60px;
     }
