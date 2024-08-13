@@ -238,7 +238,7 @@ html {
     text-indent: 15px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: -1px;
+    letter-spacing: .1px;
 }
 
 .perfil {
@@ -599,7 +599,7 @@ html {
     position: fixed;
     bottom: 30px;
     left: 50px;
-    z-index: 9999;
+    z-index: 9997;
     border-radius: 50%;
     background-color: #2AB318;
     transition: ease-out .3s;
