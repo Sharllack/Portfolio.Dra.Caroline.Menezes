@@ -599,7 +599,7 @@ html {
     position: fixed;
     bottom: 30px;
     left: 50px;
-    z-index: 9997;
+    z-index: 9999;
     border-radius: 50%;
     background-color: #2AB318;
     transition: ease-out .3s;
