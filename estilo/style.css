@@ -1,810 +1,823 @@
 @charset "UTF-8";
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark {
+  background-color: black;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
 }
 
 @font-face {
-    font-family: 'coments';
-    src: url('../fontes/DM_Serif_Display/DMSerifDisplay-Italic.ttf') format('truetype');
+  font-family: "coments";
+  src: url("../fontes/DM_Serif_Display/DMSerifDisplay-Italic.ttf")
+    format("truetype");
 }
 
 @font-face {
-    font-family: 'elegante';
-    src: url('../fontes/Elegante\ Classica.ttf') format('truetype');
+  font-family: "elegante";
+  src: url("../fontes/Elegante\ Classica.ttf") format("truetype");
 }
 
 ul {
-    list-style: none
+  list-style: none;
 }
 
 body {
-    background-color: black;
-    overflow-x: hidden;
+  background-color: black;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: goldenrod;
+  background-color: goldenrod;
 }
 
 html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .navBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    transition: .4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  transition: 0.4s;
 }
 
 .navBar a {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 15px;
-    cursor: pointer;
-    text-decoration: none;
-    font-weight: bold;
-    color: goldenrod;
-    text-shadow: 2px 2px 5px rgba(204, 204, 204, 0.575);
-    border: 2px solid transparent;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  color: goldenrod;
+  text-shadow: 2px 2px 5px rgba(204, 204, 204, 0.575);
+  border: 2px solid transparent;
 }
 
 .navBar a:hover {
-    border-bottom: 2px solid goldenrod;
-    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.171);
-    transition: .3s;
+  border-bottom: 2px solid goldenrod;
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.171);
+  transition: 0.3s;
 }
 
 .navBarRight {
-    display: flex;
+  display: flex;
 }
 
 .capa {
-    background-image: url('../imagens/Imagem\ principal.jpg');
-    background-position: top center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
+  background-image: url("../imagens/Imagem\ principal.jpg");
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
 
 .logoTipoCapa {
-    margin: auto;
-    text-align: center;
-    transform: translate(0, 40%);
+  margin: auto;
+  text-align: center;
+  transform: translate(0, 40%);
 
-    background-color: rgba(0, 0, 0, 0.856);
-    width: 20%;
-    padding: 15px;
-    border-radius: 25px;
-    border: 2px solid goldenrod;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
+  background-color: rgba(0, 0, 0, 0.856);
+  width: 20%;
+  padding: 15px;
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
 
-    animation: logo 1s ease-in infinite alternate;
+  animation: logo 1s ease-in infinite alternate;
 }
 
 @keyframes logo {
-    0% {
-        translate: 0 0%;
-    }
+  0% {
+    translate: 0 0%;
+  }
 
-    100% {
-        translate: 0 5%;
-    }
-    
+  100% {
+    translate: 0 5%;
+  }
 }
 
 .logoTipoCapa img {
-    height: 70px;
-    width: 80px;
+  height: 70px;
+  width: 80px;
 }
 
 .logoTipoCapa h1 {
-    font-size: 1em;
-    letter-spacing: 5px;
+  font-size: 1em;
+  letter-spacing: 5px;
 }
 
 .logoTipoCapa p {
-    font-size: .5em;
-    letter-spacing: 10px;
-    font-weight: bold;
+  font-size: 0.5em;
+  letter-spacing: 10px;
+  font-weight: bold;
 }
 
-.logoTipoCapa h1, .logoTipoCapa p {
-    color: goldenrod;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+.logoTipoCapa h1,
+.logoTipoCapa p {
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
 }
 
 .logoTipoContatos {
-    margin: auto;
-    text-align: center;
-    transform: translate(0, 30%);
+  margin: auto;
+  text-align: center;
+  transform: translate(0, 30%);
 
-    background-color: rgba(0, 0, 0, 0.856);
-    width: 20%;
-    padding: 15px;
-    border-radius: 25px;
-    border: 2px solid goldenrod;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
+  background-color: rgba(0, 0, 0, 0.856);
+  width: 20%;
+  padding: 15px;
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
 
-    animation: logo 1s ease-in infinite alternate;
+  animation: logo 1s ease-in infinite alternate;
 }
 
 .logoTipoContatos img {
-    height: 70px;
-    width: 80px;
+  height: 70px;
+  width: 80px;
 }
 
 .logoTipoContatos h1 {
-    font-size: 1em;
-    letter-spacing: 5px;
+  font-size: 1em;
+  letter-spacing: 5px;
 }
 
 .logoTipoContatos p {
-    font-size: .5em;
-    letter-spacing: 10px;
-    font-weight: bold;
+  font-size: 0.5em;
+  letter-spacing: 10px;
+  font-weight: bold;
 }
 
-.logoTipoContatos h1, .logoTipoContatos p {
-    color: goldenrod;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
+.logoTipoContatos h1,
+.logoTipoContatos p {
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 5px rgba(199, 199, 199, 0.678);
 }
-
 
 .borderCapa {
-    border: 2px solid goldenrod;
-    padding: 15px;
-    border-radius: 15px;
-    height: 100%;
+  border: 2px solid goldenrod;
+  padding: 15px;
+  border-radius: 15px;
+  height: 100%;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .contCapa {
-    background-color: rgba(0, 0, 0, 0.582);
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
-    transform: translate(0, 35%);
+  background-color: rgba(0, 0, 0, 0.582);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
+  transform: translate(0, 35%);
 
-    border-radius: 0 25px 25px 0;
-    height: 50%;
-    width: 50%;
-    padding: 15px;
+  border-radius: 0 25px 25px 0;
+  height: 50%;
+  width: 50%;
+  padding: 15px;
 
-    animation: appearCont 1.5s ease-out;
+  animation: appearCont 1.5s ease-out;
 }
 
 @keyframes appearCont {
-    0% {
-        translate: -100vw 0;
-    }
-    
-    100% {
-        translate: 0 0;
-    }
+  0% {
+    translate: -100vw 0;
+  }
+
+  100% {
+    translate: 0 0;
+  }
 }
 
 .contCapa h1 {
-    margin: auto;
-    text-align: center;
-    font-size: 6.5em;
-    color: goldenrod;
+  margin: auto;
+  text-align: center;
+  font-size: 6.5em;
+  color: goldenrod;
 }
 
 .historiaEFormacao {
-    height: 100vh;
-    display: flex;
+  height: 100vh;
+  display: flex;
 }
 
 .contHistoria {
-    background-image: url('../imagens/wppmarmore.jpeg');
-    background-size: cover;
-    background-position: top center;
-    background-attachment: fixed;
-    height: 100%;
-    width: 50%;
-    padding: 15px;
+  background-image: url("../imagens/wppmarmore.jpeg");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 50%;
+  padding: 15px;
 }
 
 .borderHistoria {
-    border: 2px solid goldenrod;
-    border-radius: 15px;
-    height: 100%;
-    padding: 15px;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  height: 100%;
+  padding: 15px;
 }
 
 .borderHistoria h1 {
-    font-size: 3em;
-    text-align: center;
+  font-size: 3em;
+  text-align: center;
 }
 
 .borderHistoria p {
-    margin-top: 15px;
-    font-size: 1.3em;
-    text-indent: 15px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: .1px;
+  margin-top: 15px;
+  font-size: 1.3em;
+  text-indent: 15px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1px;
 }
 
 .perfil {
-    width: 50%;
-    padding: 15px;
+  width: 50%;
+  padding: 15px;
 }
 
 .borderPerfil {
-    height: 100%;
-    width: 100%;
-    border: 2px solid goldenrod;
-    border-radius: 15px;
-    padding: 15px;
+  height: 100%;
+  width: 100%;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  padding: 15px;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .contPerfil {
-    display: flex;
+  display: flex;
 }
 
 .contPerfil img {
-    width: 40%;
-    border: 2px solid goldenrod;
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px rgba(211, 211, 211, 0.418);
-    margin-right: 15px;
+  width: 40%;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(211, 211, 211, 0.418);
+  margin-right: 15px;
 }
 
 .contPerfil .textPerfil {
-    color: white;
+  color: white;
 }
 
 .textPerfil h1 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 #text1 {
-    font-size: 1.2em;
-    letter-spacing: 2px;
-    margin-left: 15px;
-    margin-bottom: 15px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 #text2 {
-    text-indent: 15px;
-    font-size: 1.1em;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+  text-indent: 15px;
+  font-size: 1.1em;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .missaoVisaoValores {
-    background-image: url('../imagens/imagem\ secundaria.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    padding: 15px;
+  background-image: url("../imagens/imagem\ secundaria.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 15px;
 }
 
 .borderMissao {
-    border-radius: 15px;
-    border: 2px solid goldenrod;
-    height: 100%;
+  border-radius: 15px;
+  border: 2px solid goldenrod;
+  height: 100%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
 }
 
 .topicos {
-    color: white;
-    border: 2px solid goldenrod;
-    border-radius: 15px;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    width: 33%;
-    height: 50%;
+  color: white;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  width: 33%;
+  height: 50%;
 }
 
 .topicos:not(:nth-child(1)) {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .topicos img {
-    width: 70px;
-    height: 70px;
-    border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
 }
 
 .topicos h1 {
-    color: goldenrod;
-    font-size: 1.5em;
-    font-family: 'coments';
+  color: goldenrod;
+  font-size: 1.5em;
+  font-family: "coments";
 }
 
 .topicos p {
-    width: 100%;
-    font-size: 1.1em;
-    font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .areaDeAtuacao {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 .titleArea {
-    background-image: url('../imagens/wppmarmore.jpeg');
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 50%;
+  background-image: url("../imagens/wppmarmore.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
 
-    padding: 15px;
+  padding: 15px;
 }
 
 .borderArea {
-    border: 2px solid goldenrod;
-    border-radius: 15px;
-    height: 100%;
-    width: 100%;
-    padding: 15px;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .titleArea h1 {
-    font-size: 5em;
-    text-align: center;
-    width: 270px;
+  font-size: 5em;
+  text-align: center;
+  width: 270px;
 }
 
 .topicoArea {
-    background-color: black;
-    height: 100%;
-    width: 50%;
+  background-color: black;
+  height: 100%;
+  width: 50%;
 
-    padding: 15px;
+  padding: 15px;
 }
 
 .borderAreas {
-    border: 2px solid goldenrod;
-    border-radius: 15px;
-    padding: 15px;
-    height: 100%;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  padding: 15px;
+  height: 100%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .borderAreas ul {
-    list-style-type: decimal;
-    color: white;
+  list-style-type: decimal;
+  color: white;
 }
 
 .borderAreas li {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .borderAreas li::marker {
-    color: goldenrod;
-    font-size: 2em;
+  color: goldenrod;
+  font-size: 2em;
 }
 
 .avaliacoes {
-    background-image: url('../imagens/conceito-de-sinal-de-contrato-homem-e-mulher-fazendo-acordo-e-tirando-dinheiro_253401-3657.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+  background-image: url("../imagens/conceito-de-sinal-de-contrato-homem-e-mulher-fazendo-acordo-e-tirando-dinheiro_253401-3657.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 .borderAvaliacoes {
-    border: 2px solid goldenrod;
-    height: 100%;
-    border-radius: 15px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  border: 2px solid goldenrod;
+  height: 100%;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .titleAvaliacoes {
-    color: goldenrod;
-    font-size: 3.5em;
-    text-align: center;
-    margin-top: 15px;
+  color: goldenrod;
+  font-size: 3.5em;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .contAvaliacoes {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 15px;
-    height: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+  height: 100%;
 }
 
 .contAvaliacoes img {
-    width: 100px;
-    margin-left: 15px;
+  width: 100px;
+  margin-left: 15px;
 }
 
 .comentAvaliacoes.swiper-slide {
-    background-color: rgba(0, 0, 0, 0.801);
-    height: 100%;
-    width: 30%;
-    border: 2px solid goldenrod;
-    border-radius: 15px;
-    box-shadow: 2px 2px 8px black;
+  background-color: rgba(0, 0, 0, 0.801);
+  height: 100%;
+  width: 30%;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px black;
 }
 
 .comentAvaliacoes p {
-    color: white;
-    padding: 0 20px 15px 20px;
-    text-align: justify;
-    text-indent: 30px;
-    font-size: 1.1em;
-    font-family: 'coments';
+  color: white;
+  padding: 0 20px 15px 20px;
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 1.1em;
+  font-family: "coments";
 }
 
 .comentAvaliacoes h2 {
-    color: gray;
-    font-size: 1.8em;
-    margin-left: 15px;
-    font-family: 'coments';
+  color: gray;
+  font-size: 1.8em;
+  margin-left: 15px;
+  font-family: "coments";
 }
 
 .contatos {
-    background-image: url('../imagens/contatos.jpg');
-    background-size: cover;
-    background-position: bottom center;
-    background-attachment: fixed;
-    height: 100vh;
-    padding: 15px;
+  background-image: url("../imagens/contatos.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 15px;
 }
 
 .borderContatos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
 
-    border: 2px solid goldenrod;
-    border-radius: 15px;
-    padding: 15px;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  padding: 15px;
 }
 
 .borderRedes {
-    height: 100%;
+  height: 100%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .redes {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.801);
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
-    border: 2px solid goldenrod;
-    border-radius: 15px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.801);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  cursor: pointer;
 }
 
 .redes:hover {
-    background-color: rgba(245, 244, 244, 0.089);
+  background-color: rgba(245, 244, 244, 0.089);
 }
 
 .redes a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .redes a img {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 
 .menu-mobile {
-    display: none;
-    cursor: pointer;
-    box-shadow: 3px 3px 8px rgba(211, 211, 211, 0.438);
-    border: 2px solid goldenrod;
-    border-radius: 25%;
+  display: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 8px rgba(211, 211, 211, 0.438);
+  border: 2px solid goldenrod;
+  border-radius: 25%;
 }
 
 .menu-mobile div {
-    width: 32px;
-    height: 2px;
-    background-color: goldenrod;
-    margin: 8px;
+  width: 32px;
+  height: 2px;
+  background-color: goldenrod;
+  margin: 8px;
 
-    transition: .3s;
+  transition: 0.3s;
 }
 
 .navBarRight.active {
-    transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 @keyframes navLinkFade {
-    0% {
-        opacity: 0;
-        translate: 50px 0;
-    }
+  0% {
+    opacity: 0;
+    translate: 50px 0;
+  }
 
-    100% {
-        opacity: 1;
-        translate: 0 0;
-    }
+  100% {
+    opacity: 1;
+    translate: 0 0;
+  }
 }
 
 .navBar.dark {
-    background-color: black;
-    transition: .4s;
+  background-color: black;
+  transition: 0.4s;
 }
 
-
 .menu-mobile.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
+  transform: rotate(-45deg) translate(-8px, 8px);
 }
 
 .menu-mobile.active .line2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 .menu-mobile.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
+  transform: rotate(45deg) translate(-5px, -7px);
 }
 
-.borderHistoria, .borderPerfil, .topicos, .borderArea, .borderAreas, .redes {
-    visibility: hidden;
+.borderHistoria,
+.borderPerfil,
+.topicos,
+.borderArea,
+.borderAreas,
+.redes {
+  visibility: hidden;
 }
 
 .whats {
-    position: fixed;
-    bottom: 30px;
-    left: 50px;
-    z-index: 9999;
-    border-radius: 50%;
-    background-color: #2AB318;
-    transition: ease-out .3s;
+  position: fixed;
+  bottom: 30px;
+  left: 50px;
+  z-index: 9999;
+  border-radius: 50%;
+  background-color: #2ab318;
+  transition: ease-out 0.3s;
 }
 
 .whats:hover {
-    filter: brightness(75%);
+  filter: brightness(75%);
 }
 
 .whats img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 
 .footer {
-    background-image: url('../imagens/marmore\ footer.png');
-    background-attachment: fixed;
-    color: white; /* Cor do texto */
-    padding: 30px 0; /* Espaçamento interno */
-    font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../imagens/marmore\ footer.png");
+  background-attachment: fixed;
+  color: white; /* Cor do texto */
+  padding: 30px 0; /* Espaçamento interno */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .footer-logo {
-    flex: 1;
-    max-width: 200px;
-    text-align: center;
+  flex: 1;
+  max-width: 200px;
+  text-align: center;
 }
 
-.footer-logo h1, .footer-logo p {
-    color: #ffc107;
+.footer-logo h1,
+.footer-logo p {
+  color: #ffc107;
 }
 
 .footer-logo img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .footer-links {
-    flex: 1;
-    text-align: center;
-    max-width: 200px;
+  flex: 1;
+  text-align: center;
+  max-width: 200px;
 }
 
 .footer-links ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer-links li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-links a {
-    color: goldenrod;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: goldenrod;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #ffc107; /* Cor ao passar o mouse */
+  color: #ffc107; /* Cor ao passar o mouse */
 }
 
 .footer-contact {
-    flex: 1;
-    text-align: center;
-    max-width: 250px;
+  flex: 1;
+  text-align: center;
+  max-width: 250px;
 }
 
 .footer-contact h2 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: goldenrod;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: goldenrod;
 }
 
 .footer-contact p {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .footer-contact a {
-    color: #ffc107;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: #ffc107;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer-contact a:hover {
-    color: #ffeb3b; /* Cor ao passar o mouse */
+  color: #ffeb3b; /* Cor ao passar o mouse */
 }
 
 .footer-social {
-    float: right;
-    flex: 1;
-    text-align: center;
-    max-width: 200px;
-    margin-top: 20px;
+  float: right;
+  flex: 1;
+  text-align: center;
+  max-width: 200px;
+  margin-top: 20px;
 }
 
 .footer-social ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer-social li {
-    display: inline-block;
-    margin-right: 10px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .footer-social img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transition: transform 0.3s ease;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
 }
 
 .footer-social img:hover {
-    transform: scale(1.2); /* Efeito de escala ao passar o mouse */
+  transform: scale(1.2); /* Efeito de escala ao passar o mouse */
 }
 
 .copyR {
-    text-align: center;
-    margin-top: 15px;
-    color: #ffc107;
+  text-align: center;
+  margin-top: 15px;
+  color: #ffc107;
 }
 
 .desR {
-    text-align: center;
-    font-size: .7em;
+  text-align: center;
+  font-size: 0.7em;
 }
 
 .desR a {
-    color: #ffc107;
-    font-weight: bold;
-    text-decoration: none;
+  color: #ffc107;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .desR a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.borda1, .borda2, .borda3 {
-    display: flex;
-    position: fixed;
-    z-index: 9998;
-    bottom: 32px;
-    left: 50px;
-    border-radius: 50%;
-    transition: .3s;
-    height: 70px;
-    width: 70px;
-    border: 2px solid #2AB318;
+.borda1,
+.borda2,
+.borda3 {
+  display: flex;
+  position: fixed;
+  z-index: 9998;
+  bottom: 32px;
+  left: 50px;
+  border-radius: 50%;
+  transition: 0.3s;
+  height: 70px;
+  width: 70px;
+  border: 2px solid #2ab318;
 }
 
 .borda1 {
-    animation: borda1 1.3s infinite linear;
+  animation: borda1 1.3s infinite linear;
 }
 
 .borda2 {
-    animation: borda2 1.6s infinite linear;
+  animation: borda2 1.6s infinite linear;
 }
 
 .borda3 {
-    animation: borda3 1.9s infinite linear;
+  animation: borda3 1.9s infinite linear;
 }
 
 @keyframes borda1 {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
 
-    100% {
-        transform: scale(1.5);
-        opacity: 0;
-    }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
 
 @keyframes borda2 {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
 
-    100% {
-        transform: scale(1.5);
-        opacity: 0;
-    }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
 
 @keyframes borda3 {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
 
-    100% {
-        transform: scale(1.5);
-        opacity: 0;
-    }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
